@@ -1,2 +1,2 @@
 # simon-say-game
-it is an intresting game
+it is an intresting game.
