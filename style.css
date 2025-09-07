@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.simon-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-button {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.color-button.red {
+    background-color: #e74c3c;
+}
+
+.color-button.green {
+    background-color: #2ecc71;
+}
+
+.color-button.blue {
+    background-color: #3498db;
+}
+
+.color-button.yellow {
+    background-color: #f1c40f;
+}
+
+.color-button.active {
+    opacity: 1;
+    box-shadow: 0 0 20px white;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#status {
+    font-size: 1.5rem;
+}
